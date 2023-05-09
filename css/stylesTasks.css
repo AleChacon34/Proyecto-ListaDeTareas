@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    display: flex;
+    place-content: center;
+    background: radial-gradient(circle, rgba(12,0,215,1) 0%, rgba(0,0,152,1) 35%, rgba(0,1,1,1) 100%);
+}
+
+.box{
+    background-color: #ffff;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    width: 300px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+}
+
+.header{
+    place-content: center;
+    width: 94%;
+    padding: 10px;
+    background-color: rgb(0, 0, 98);
+    height: 50px;
+    border-radius: 10px;
+}
+
+.header .options .navLink{
+    position: relative;
+    display: inline-block;
+    translate: 60px 10px;
+}
+
+.header .options .navLink a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+}
+
+.header .options .navLink a:hover{
+    background-color: rgb(0, 0, 148);
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.box .listTasks{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box .listTasks li{
+    padding: 10px;
+}
+
+.box .listTasks li:hover{
+    background-color: #e7e7e7;
+    transition: all 0.5s;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    color: #ffff;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 121);
+    transition: all 0.5s;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    display: flex;
+    place-content: center;
+    background: radial-gradient(circle, rgba(12,0,215,1) 0%, rgba(0,0,152,1) 35%, rgba(0,1,1,1) 100%);
+}
+
+.box{
+    background-color: #ffff;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 200px;
+    width: 300px;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+}
+
+.header{
+    place-content: center;
+    width: 94%;
+    padding: 10px;
+    background-color: rgb(0, 0, 98);
+    height: 50px;
+    border-radius: 10px;
+}
+
+.header .options .navLink{
+    position: relative;
+    display: inline-block;
+    translate: 60px 10px;
+}
+
+.header .options .navLink a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+}
+
+.header .options .navLink a:hover{
+    background-color: rgb(0, 0, 148);
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.box form{
+    justify-content: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.box form .inputBar{
+    margin: 5px;
+}
+
+.box form .inputBar .label label{
+    justify-content: center;
+}
+
+.box form .inputBar .input input{
+    width: 220px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+}
+
+button{
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+    translate: 110px 0;
+    border: none;
+    padding: 8px;
+    background-color: #7b7b7b;
+    color: #ffff;
+}
+
+button:hover{
+    border-radius: 5px;
+    background-color: rgb(0, 0, 212);
+    transition: all 0.5s;
+}

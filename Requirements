@@ -1,0 +1,10 @@
+1. Crear modulo de agregar tarea
+    a. Crear funcionalidad de agregar tarea
+2. Crear modulo de listar tareas
+    a. Crear funcionalidad de listar tareas
+    b. Crear funcionalidad de eliminar tarea
+    c. Crear funcionalidad de marcar tarea como 'urgente'
+3. Enlazar aplicacion a la base de datos
+    a. Crear funcionalidad POST de la base de datos
+    b. Crear funcionalidad GET (all) de la base de datos
+    c. Crear funcionalidad DELETE de la base de datos
